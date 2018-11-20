@@ -13,6 +13,13 @@ function main() {
 function stop() {
 
 }
+
+function keyPressed() {
+	if (state === 0 && keyCode === 32) {
+		state = 1
+	}
+}
+
 function setup() {
 	createCanvas(600, 600)
 }
