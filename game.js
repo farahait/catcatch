@@ -23,3 +23,15 @@ function keyPressed() {
 function setup() {
 	createCanvas(600, 600)
 }
+
+function draw() {
+	if (state === 0) {
+		start()
+	}
+	else if (state === 1) {
+		main()
+	}
+	else if (state === 2) {
+		stop()
+	}
+}
